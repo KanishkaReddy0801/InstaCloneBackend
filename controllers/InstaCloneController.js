@@ -1,6 +1,7 @@
 const InstaCloneService = require("../services/InstaCloneService");
 const fs = require("fs");
 const InstaCloneModel = require("../models/InstaCloneModel");
+const BASE_URL = process.env.BASE_URL
 
 exports.getPosts = async (req, res) => {
   try {
